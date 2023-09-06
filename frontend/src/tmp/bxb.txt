@@ -1,0 +1,26 @@
+this is the outline of the project. this project is built with nextjs and typescript. all code for the project is written and is to be written in typescript.  We will use react-draggable
+we have a Workspace.tsx, and a Sidebar.tsx, Editor.tsx and a PageDesigner.tsx.
+all styling is in the form of module.css
+this project will be built using a component-based architecture, where different parts of the application are encapsulated into reusable components. These components can represent various elements and widgets that users can add to a canvas or workspace.
+SidebarElements.tsx: the sidebar will hold a bunch of elements native to webdevelopment such  buttons, text, div and image. the elements should have the ability to be gragged from the sidebar to the workspace. it will also import  subcomponents 
+
+ElementEditor.tsx: The editor basically handles the styling and positions, properties and effects of individual element on the workspace. When an element is dragged to a position and dropped on the workspace. the editor activates and handles the properties such as height , color, width, opacity, z-index and etc. Also when an element is selected on the  workspace the editor is used to edit the properties of selected element. it will also import  subcomponents 
+
+Workspace.tsx: the workspace is gonna show a canvas or basically behave live a webpage in a webpage. when an element is dragged from the sidebar on the workspace. lets say a user drag a div element to the workspace, then a div has to be generated and inserted into the position it was dragged into in the workspace or canvas, if i drag a text to the top of the workspace then a text box should show at that position where i can enter my text. Also, let say i drag a div onto the workspace and give it a background of blue, and then i drag another div onto the same same position, since the worskpace or canvas is suppossed to act as a real webpage. the second div is supposed to overlay the first div, it should basically follow the rules of html styling.
+All files are in typescript
+You are charged with writing the code and assisting in this project. if you cannot give full answers, break it into smaller parts. You cannot give uncompleted code. 
+
+Here's a high-level overview of how you can structure your project:
+
+Create Reusable Components:
+
+Begin by creating reusable components for the elements or widgets that users can add to the canvas. For example, you can create components for divs, headings, images, buttons, etc.
+Workspace Component:
+
+Create a Workspace component that serves as the canvas where elements can be added. This component manages the state of elements added to the canvas and their properties (position, size, style, etc.).
+Sidebar Component:
+
+Develop a Sidebar component that displays a list of available elements or widgets that users can drag and drop onto the canvas. Each element in the sidebar should be a draggable component.
+Editor Component:
+
+Create an Editor component responsible for displaying and editing the properties of the selected element on the canvas. This component should update the state of the selected element based on user interactions.

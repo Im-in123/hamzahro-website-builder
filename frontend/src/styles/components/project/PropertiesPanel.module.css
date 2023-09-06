@@ -1,0 +1,27 @@
+/* PropertiesPanel.module.css */
+.propertiesPanel {
+    width: 200px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-left: 1px solid #ddd;
+  }
+  
+  /* Property input styles */
+  .propertyInput {
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Apply specific styles for different property types (e.g., color, size) */
+  .propertyInput.color {
+    /* Add color input styles */
+  }
+  
+  .propertyInput.size {
+    /* Add size input styles */
+  }
+  

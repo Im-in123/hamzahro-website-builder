@@ -1,0 +1,13 @@
+/* Workspace.module.css */
+.workspace {
+    width: 100%;
+    min-height: 400px;
+    border: 1px dashed #ccc;
+    position: relative;
+  }
+  
+  /* Style for selected element border */
+  .workspace .selected {
+    border: 2px solid #007bff; /* Customize the color */
+  }
+  

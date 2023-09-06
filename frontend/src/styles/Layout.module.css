@@ -1,0 +1,48 @@
+/* styles/Layout.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navList li {
+    margin-right: 1rem;
+  }
+  
+  .navList a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

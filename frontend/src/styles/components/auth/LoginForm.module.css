@@ -1,0 +1,215 @@
+/* styles/components/LoginForm.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  width: 100%;
+}
+
+.formBox {
+  width: 380px;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* opacity: 0.5; */
+  border-radius: 2%;
+}
+
+.bodyForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.errorDiv{
+  border-radius: 5px;
+  border: 2px white;
+  background-color: rgb(214, 24, 24);
+  color: white;
+  text-align: center;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.errorDivIcon  {
+  position: absolute;
+  /* top:-18px; */
+  /* right: -90px; */
+  /* width: 20px; */
+  cursor: pointer;
+}
+
+.headerForm {
+  margin-bottom: 15px;
+}
+.form{
+  width: 100%;
+  line-height: 1.5px;
+}
+.icon{
+  font-size: 110px;
+}
+.inputGroup {
+  margin-bottom: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #d2eaeb;
+
+}
+
+
+.inputGroupPrepend{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid gray;
+  background: #bdd4d4;
+  
+}
+
+.input {
+  width: 90%;
+  height: 30px;
+ border: none;
+ outline: none;
+ padding-left: 8px;
+ color: gray;
+ }
+
+ .passInput {
+  width: 80%;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  color: gray;
+ }
+
+ .passvisibile{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+
+.inputGroupIcon{
+  color: black;
+  font-size: 18px;
+}
+
+ 
+.errorListItem{
+  color: red;
+  margin: 14px 0;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+ .messageSpan{
+  color: white;
+  font-size: 14px;
+ }
+ 
+.textCenter {
+  text-align: center;
+}
+
+.textPrimary {
+  color: #007bff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.loginMainButton, .signupMainButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-weight: bold;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #7dc4c4;
+}
+.login, .signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color:gray;
+ }
+
+.loginButton,.signupButton   {
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(206, 202, 202);
+}
+
+.loaderLogin {
+  position: absolute;
+  border: 3px solid #7dc4c4;
+  border-radius: 50%;
+  border-top: 3px solid white;
+  width: 17px;
+  height: 17px;
+  -webkit-animation: spin 0.7s linear infinite;
+  animation: spin 0.7s linear infinite;
+ 
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inputGroup:hover {
+  background-color: #c2e5e6; /* Change background color on hover */
+}
+
+.loginMainButton:hover {
+  background-color: #1fb3b3; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.signupButton:hover {
+  color: white; /* Change text color on hover */
+}
+
+.passvisibile:hover {
+  cursor: pointer; /* Change cursor on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+ 
+
+
+
+

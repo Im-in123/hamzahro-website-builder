@@ -1,0 +1,21 @@
+/* ElementSidebar.module.css */
+.elementSidebar {
+    width: 200px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ddd;
+  }
+  
+  .element {
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .element:hover {
+    background-color: #eee;
+  }
+  
