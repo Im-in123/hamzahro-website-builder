@@ -12,4 +12,5 @@ Open Source Website builder
 1. git clone repo
 2. cd /frontend and cd /backend
 3. npm install
-4. npm run dev
+4. create .env in backend root (see backend/src/config/env.ts for required fields)
+5. npm run dev
