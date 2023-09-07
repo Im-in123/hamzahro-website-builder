@@ -8,7 +8,8 @@ Open Source Website builder
 6. Typescript
 7. Node JS
 
-## CLone
+## Setuo
 1. git clone repo
 2. cd /frontend and cd /backend
-3. npm run dev
+3. npm install
+4. npm run dev
